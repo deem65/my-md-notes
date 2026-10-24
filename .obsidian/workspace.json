@@ -1,0 +1,229 @@
+{
+  "main": {
+    "id": "a92bd61f5c81e2fb",
+    "type": "split",
+    "children": [
+      {
+        "id": "440187eba6e8561f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8384d94580f7d8d1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ERA 1 - C++/1.3 Win32/Window Creation Pipeline.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Window Creation Pipeline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f41388ef03c36abd",
+    "type": "split",
+    "children": [
+      {
+        "id": "61fa515f75f28b22",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f210cec25cff9dc5",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "b893721614909c6f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "7bf56746179bf0a2",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 313.5283088684082
+  },
+  "right": {
+    "id": "f859d78a7437cd0f",
+    "type": "split",
+    "children": [
+      {
+        "id": "046441b47de89978",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "518d38b524917313",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Compoud Types/References.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "69027e3b3ea4585c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Compoud Types/Lvalue references.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "1b58b20bba8959e9",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "7e05ebb0a5330773",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "65bd94441fd58a9e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "f210cec25cff9dc5",
+  "lastOpenFiles": [
+    "README.md",
+    "ERA 1 - C++/1.3 Win32/Window Creation Pipeline.md",
+    "ERA 1 - C++/1.3 Win32/Win32 Introduction.md",
+    "ERA 1 - C++/1.2 Advanced/Move Semantics.md",
+    "ERA 1 - C++/1.1 Fundamentals/1.1.1 Basics/Build Process.md",
+    "ERA 1 - C++/1.1 Fundamentals/1.1.1 Basics/Errors.md",
+    "ERA 1 - C++/1.1 Fundamentals/1.1.1 Basics/Headers.md",
+    "ERA 1 - C++/1.1 Fundamentals/1.1.1 Basics/Scope.md",
+    "ERA 1 - C++/1.1 Fundamentals/1.1.1 Basics/Structure.md",
+    "ERA 1 - C++/1.1 Fundamentals/1.1.2 Data & Types/Constants.md",
+    "ERA 1 - C++/1.1 Fundamentals/1.1.2 Data & Types/Data.md",
+    "ERA 1 - C++/1.1 Fundamentals/1.1.2 Data & Types/Expressions.md",
+    "ERA 1 - C++/1.1 Fundamentals/1.1.2 Data & Types/Initialization.md",
+    "ERA 1 - C++/1.1 Fundamentals/1.1.2 Data & Types/Types.md",
+    "ERA 1 - C++/1.1 Fundamentals/1.1.2 Data & Types/Value Categories unc.md",
+    "ERA 1 - C++/1.1 Fundamentals/1.1.3 Control Flow/Conditionals.md",
+    "ERA 1 - C++/1.1 Fundamentals/1.1.3 Control Flow/Control Flow.md",
+    "ERA 1 - C++/1.1 Fundamentals/1.1.3 Control Flow/Jumps.md",
+    "ERA 1 - C++/1.1 Fundamentals/1.1.3 Control Flow/Loops.md",
+    "ERA 1 - C++/1.1 Fundamentals/1.1.4 Functions/Function Pointers and Callbacks.md",
+    "ERA 1 - C++/1.1 Fundamentals/1.1.4 Functions/Functions.md",
+    "ERA 1 - C++/1.1 Fundamentals/1.1.4 Functions/Passing.md",
+    "ERA 1 - C++/1.1 Fundamentals/1.1.4 Functions/Return.md",
+    "ERA 1 - C++/1.1 Fundamentals/1.1.5 Memory/Dynamic Memory.md",
+    "ERA 1 - C++/1.1 Fundamentals/1.1.5 Memory/Object Representation.md",
+    "ERA 1 - C++/1.1 Fundamentals/1.1.5 Memory/Pointers.md",
+    "ERA 1 - C++/1.3 Win32",
+    "ERA 1 - C++/1.2 Advanced/Concurrency",
+    "ERA 1 - C++/1.2 Advanced",
+    "ERA 1 - C++/1.1 Fundamentals/1.1.7 Standard Library",
+    "ERA 1 - C++/1.1 Fundamentals/1.1.6 Compounds",
+    "ERA 1 - C++/1.1 Fundamentals/1.1.5 Memory",
+    "ERA 1 - C++/1.1 Fundamentals/1.1.4 Functions",
+    "ERA 1 - C++/1.1 Fundamentals/1.1.3 Control Flow",
+    "ERA 1 - C++/1.1 Fundamentals/1.1.2 Data & Types",
+    "ERA 1 - C++/1.1 Fundamentals/1.1.1 Basics"
+  ]
+}
