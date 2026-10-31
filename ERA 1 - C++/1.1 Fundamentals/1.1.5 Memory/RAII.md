@@ -220,7 +220,6 @@ For an automatic local owner, that normally means cleanup as execution leaves it
 - `std::vector` is a familiar example: destroying the vector releases the element storage it owns.
 
 #### Best practices
-
 - Give each resource a clear owning object.
 - Use existing standard library owners when they fit the resource.
 - Put required cleanup in the owner's destructor.
@@ -229,19 +228,3 @@ For an automatic local owner, that normally means cleanup as execution leaves it
 - Do not throw from destructors; provide a separate checked operation when cleanup errors must be reported.
 - Prefer classes composed of existing RAII members so automatic member destruction handles their cleanup.
 
-#### Related notes
-
-- [[Dynamic Memory]]
-- [[Pointers]]
-- [[References]]
-- [[Scope]]
-- [[Errors]]
-
-#### References
-
-- Microsoft Learn: [object lifetime and resource management](https://learn.microsoft.com/en-us/cpp/cpp/object-lifetime-and-resource-management-modern-cpp).
-- C++ Core Guidelines: [RAII](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#Rr-raii).
-- C++ working draft: [destructors](https://eel.is/c++draft/class.dtor), [member initialization](https://eel.is/c++draft/class.base.init), and [exception cleanup](https://eel.is/c++draft/except.ctor).
-- C++ working draft: [copy and move constructor rules](https://eel.is/c++draft/class.copy.ctor) and [converting constructors](https://eel.is/c++draft/class.conv.ctor).
-- C++ working draft: [file-buffer destruction](https://eel.is/c++draft/filebuf.cons), [C file facilities](https://eel.is/c++draft/c.files), and [vector construction and destruction](https://eel.is/c++draft/vector.cons).
-- C++ working draft: [termination](https://eel.is/c++draft/except.terminate), [program termination functions](https://eel.is/c++draft/support.start.term), and [static-object destruction](https://eel.is/c++draft/basic.start.term).

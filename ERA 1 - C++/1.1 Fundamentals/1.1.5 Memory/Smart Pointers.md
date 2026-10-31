@@ -79,8 +79,3 @@ The deleter must match the acquisition API. Use a COM smart pointer for COM inte
 #### In Modest Clipper
 A component may have exclusive ownership of its worker state. Several clip exports may share immutable encoded sample data, while the replay buffer evicts its own references.
 Sharing is a design choice with memory costs. Prefer exclusive ownership when sharing is unnecessary.
-#### Related notes
-- [[RAII]]
-- [[Move Semantics]]
-- [[COM Ownership]]
-- [[Concurrent Clip Saving]]

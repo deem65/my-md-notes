@@ -59,7 +59,4 @@ while (true) {
 A recorder worker often loops until cancellation. A loop that continuously checks a flag without blocking can waste an entire CPU core.
 Use a suitable wait mechanism and ensure a shutdown request can wake or periodically release that wait.
 `std::exit` is a library function, not a loop-control keyword; it bypasses destruction of automatic locals in the calling stack.
-#### Related notes
-- [[Conditionals]]
-- [[Iterators]]
-- [[Threads and Cancellation]]
+

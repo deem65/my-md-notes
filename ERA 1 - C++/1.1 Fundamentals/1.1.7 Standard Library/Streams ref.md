@@ -1,3 +1,5 @@
+refactor
+
 A **stream** in C++ is an abstraction for data flowing between your program and some source or destination. 
 Instead of writing completely different code for every kind of input and output, C++ provides a common stream system. Data might come from the keyboard, a file, or a string in memory, and it might go to the terminal, a file, or another string. The underlying destination changes, but many of the concepts used to interact with that data remain the same.
 

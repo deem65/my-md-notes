@@ -213,7 +213,6 @@ const int* readable{writable}; // valid
 
 - This restricts what can be done through `readable`.
 - It does not make the original `value` object const.
-- See [[Pointers]] and [[References]] for access through pointers and references.
 
 #### Other C++ casts
 C++ provides four named casts with different purposes:
@@ -248,17 +247,3 @@ A C-style cast can perform several different kinds of conversion. A named cast m
 - Investigate conversion warnings instead of adding casts only to hide them.
 - Remember that a numeric cast does not parse a string or change a variable's declared type.
 
-#### Related notes
-
-- [[Types]]
-- [[Initialization]]
-- [[Operators]]
-- [[Value Categories unc]]
-
-#### References
-
-- C++ working draft: [standard conversions](https://eel.is/c++draft/conv), [integral promotions](https://eel.is/c++draft/conv.prom), and [floating-point promotion](https://eel.is/c++draft/conv.fpprom).
-- C++ working draft: [integral conversions](https://eel.is/c++draft/conv.integral), [floating-integral conversions](https://eel.is/c++draft/conv.fpint), and [floating-point conversions](https://eel.is/c++draft/conv.double).
-- C++17 working draft: [the earlier signed-integer conversion rule](https://timsong-cpp.github.io/cppwp/n4659/conv.integral).
-- C++ working draft: [list initialization](https://eel.is/c++draft/dcl.init.list), [usual arithmetic conversions](https://eel.is/c++draft/expr.arith.conv), [Boolean conversions](https://eel.is/c++draft/conv.bool), and [qualification conversions](https://eel.is/c++draft/conv.qual).
-- C++ working draft: [static cast](https://eel.is/c++draft/expr.static.cast), [dynamic cast](https://eel.is/c++draft/expr.dynamic.cast), [const cast](https://eel.is/c++draft/expr.const.cast), [reinterpret cast](https://eel.is/c++draft/expr.reinterpret.cast), and [C-style casts](https://eel.is/c++draft/expr.cast).

@@ -36,7 +36,7 @@ Types are represented as `T&`.
 - A non-const lvalue reference binds to a compatible, modifiable lvalue. It cannot bind to a temporary produced by an ordinary value conversion. A reference to a base class can also bind to a suitable derived object.
 - References can't be changed to reference another object.
 - References follow the same scope rules as normal variables.
-- A reference and its referent normally have independent lifetimes. Some reference initializations extend a temporary object's lifetime; see [[Pointers]] and [[Value Categories unc]].
+- A reference and its referent normally have independent lifetimes. Some reference initializations extend a temporary object's lifetime; see [[Pointers]] and [[Value Categories unf]].
 - **Term**: A *dangling reference* is a reference referencing an object which no longer exists. Accessing the destroyed object through it causes undefined behavior. 
 - References are not objects, and so you can't have a reference to a reference, since an lvalue reference must reference an identifiable object.
 ### `const` and `constexpr` references

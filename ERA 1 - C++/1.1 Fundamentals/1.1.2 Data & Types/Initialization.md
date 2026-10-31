@@ -60,7 +60,3 @@ Constructors taking `std::initializer_list` receive special preference during li
 Members initialize in declaration order, independently of their order in the constructor's initializer list. The constructor body executes afterward.
 Initialize const members and references appropriately at construction; they cannot be repaired by ordinary assignment in the body.
 `[[maybe_unused]]` can suppress an unused-entity diagnostic, but it does not initialize an object or make an invalid read safe.
-#### Related notes
-- [[Classes unf]]
-- [[Structs]]
-- [[Type Conversion]]

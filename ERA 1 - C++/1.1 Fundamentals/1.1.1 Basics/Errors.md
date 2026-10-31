@@ -277,4 +277,3 @@ Catch and translate errors at a boundary that can decide what to do: a worker en
 - Never let an exception escape a C callback boundary that does not support it.
 - Add context such as the operation, device and file path while preserving the original error.
 - A destructor's cleanup cannot reliably report a successful media export; use an explicit checked finalization operation.
-See [[Application Errors and Recovery]] for application policy and [[Windows Strings and Errors]] for Windows error interfaces.

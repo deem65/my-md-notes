@@ -78,4 +78,3 @@ Debug and Release are build configurations, not different languages.
 - Optimized programs can still contain debug symbols and be debugged.
 - Undefined behavior can appear to change when optimization changes.
 - Compare recorder performance using a representative optimized build.
-For project-specific settings, see [[Building Windows Applications]].

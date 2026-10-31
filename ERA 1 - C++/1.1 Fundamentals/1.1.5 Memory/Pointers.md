@@ -62,8 +62,3 @@ Windows and COM APIs frequently use output parameters; the API specifies whether
 #### Representation and ownership
 Do not assume every pointer type has the same size or that all C++ platforms use one universal representation. Windows x64 object pointers are normally 64-bit; pointer-to-member types can differ.
 Raw pointers usually express borrowing in application interfaces. Put resource responsibility in RAII owners and document any exceptions.
-#### Related notes
-- [[RAII]]
-- [[Smart Pointers]]
-- [[Arrays]]
-- [[COM Ownership]]
