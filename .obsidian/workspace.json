@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ERA 1 - C++/1.1 Fundamentals/1.1.6 Compounds/Structs.md",
+                "file": "ERA 1 - C++/1.1 Fundamentals/1.1.6 Compounds/Classes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Structs"
+              "title": "Classes"
             }
           }
         ]
@@ -189,9 +189,9 @@
   },
   "active": "8384d94580f7d8d1",
   "lastOpenFiles": [
-    "ERA 1 - C++/1.1 Fundamentals/1.1.6 Compounds/Arrays.md",
     "ERA 1 - C++/1.1 Fundamentals/1.1.6 Compounds/Structs.md",
-    "ERA 1 - C++/1.1 Fundamentals/1.1.6 Compounds/Classes unf.md",
+    "ERA 1 - C++/1.1 Fundamentals/1.1.6 Compounds/Arrays.md",
+    "ERA 1 - C++/1.1 Fundamentals/1.1.6 Compounds/Classes.md",
     "ERA 1 - C++/1.1 Fundamentals/1.1.7 Standard Library/Containers/Forward List unf.md",
     "ERA 1 - C++/1.1 Fundamentals/1.1.7 Standard Library/Containers/Array unf.md",
     "ERA 1 - C++/1.1 Fundamentals/1.1.6 Compounds/Templates unf.md",
