@@ -1,4 +1,3 @@
-# Errors
 An *error* is a problem in a program that prevents it from compiling, causes it to behave incorrectly, or produces an unexpected result.
 Errors can occur at different stages of a program's development and execution.
 - C++ errors can generally be categorized into:

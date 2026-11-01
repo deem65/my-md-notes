@@ -1,15 +1,14 @@
-# Initialization
 *Initialization* establishes an object's initial state. *Assignment* changes an object that already exists.
 C++ has several initialization forms whose behavior depends on the type being initialized.
 #### Common syntax
-| Declaration | Form |
-|---|---|
-| `int a;` | Default initialization |
-| `int b = 5;` | Copy initialization |
-| `int c(5);` | Direct initialization |
-| `int d{5};` | Direct-list initialization |
-| `int e = {5};` | Copy-list initialization |
-| `int f{};` | Empty-list initialization, resulting in value initialization for this int |
+| Declaration    | Form                                                                      |
+| -------------- | ------------------------------------------------------------------------- |
+| `int a;`       | Default initialization                                                    |
+| `int b = 5;`   | Copy initialization                                                       |
+| `int c(5);`    | Direct initialization                                                     |
+| `int d{5};`    | Direct-list initialization                                                |
+| `int e = {5};` | Copy-list initialization                                                  |
+| `int f{};`     | Empty-list initialization, resulting in value initialization for this int |
 #### Default initialization
 ```cpp
 int global_count; // static storage: zero-initialized
